@@ -1,3 +1,10 @@
+$(function() {
+  let span = document.getElementById('loc');
+
+  span.innerHTML = window.location.href;
+
+});
+
 let btn = document.getElementById('xdbtn');
 
 let txt = document.getElementById('xdtxt');
@@ -11,3 +18,4 @@ txt.addEventListener('keyup', function(e) {
    window.location.href = `/${txt.value}`;
  }
 });
+
